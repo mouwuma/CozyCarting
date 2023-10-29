@@ -1,0 +1,597 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698550020583535, "dur":844, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550020584382, "dur":139, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698550020584563, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698550020584584, "dur":399, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698550020585007, "dur":582, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550020585589, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515538, "dur":101, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515639, "dur":90, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515729, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515736, "dur":75, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515811, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515816, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515823, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515826, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515831, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515834, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515839, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515842, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515847, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515850, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515855, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515858, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515863, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515866, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515871, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515873, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515879, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515881, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515887, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515890, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515896, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515911, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023515942, "dur":1796, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698550020585233, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550020585599, "dur":1703, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550020587317, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698550020587321, "dur":307953, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550020895277, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698550020895285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550020895291, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698550020896118, "dur":126672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021022794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021022801, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021023494, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021023592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021023596, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021024895, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021025245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021025254, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021027059, "dur":106237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021133299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021133303, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021134282, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021134391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021134395, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021134946, "dur":42047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021176996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021177001, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021177631, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021177715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021177719, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021178315, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021178400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021178404, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021179084, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021179198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021179203, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021180005, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021180310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021180318, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021181948, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021182033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021182040, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021182644, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021183239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021183246, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021184368, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021185104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021185108, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021186026, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021186144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021186149, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021186694, "dur":226600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021413299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021413308, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698550021414385, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698550021414410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021414445, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698550021418988, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698550021419028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021419034, "dur":18365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698550021437415, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698550021437434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021437441, "dur":175401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698550021612863, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698550021612889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021612901, "dur":6018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698550021618937, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1698550021618957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021618961, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1698550021620234, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698550021620267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698550021620274, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698550021622179, "dur":1893356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550020585264, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550020585609, "dur":1702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550020587316, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698550020587385, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550020592271, "dur":29855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698550020622148, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698550020622180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550020622431, "dur":45460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698550020667907, "dur":2188616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698550022856530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698550022856586, "dur":6011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698550022862613, "dur":652929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020585254, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020585603, "dur":1709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020587318, "dur":65074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698550020652396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020652402, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698550020652912, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698550020652936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020652940, "dur":8941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698550020661894, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1698550020661953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020661957, "dur":31168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1698550020693139, "dur":151792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698550020844936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020844941, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698550020846517, "dur":52301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020898822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020898830, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020899502, "dur":48646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020948152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020948157, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020948846, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020948982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550020948988, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550020949745, "dur":52887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021002636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021002643, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021003456, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021003655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021003662, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021004436, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021004658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021004664, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021005598, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021005877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021005884, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021008254, "dur":156679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021164937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021164944, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021165591, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021165707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021165713, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021166284, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021166538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021166542, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021167318, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021167743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021167748, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021168441, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021168636, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021168650, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169225, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169320, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169790, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021169934, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021170460, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021170741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021170745, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021171428, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021171547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021171553, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021173224, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021173858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021173866, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021174776, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021174880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021174887, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021175563, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021175670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021175676, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021176331, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021176718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021176724, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021177454, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021177561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021177565, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021178177, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021178324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021178330, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021179003, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021179483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021179488, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021180357, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021180535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021180542, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021182168, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021182477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021182483, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021183209, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021183382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021183389, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021184316, "dur":322257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021506578, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021506592, "dur":113139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698550021619751, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1698550021619768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698550021619772, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1698550021621174, "dur":1894362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550020585294, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550020585615, "dur":1690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550020587318, "dur":74526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1698550020661847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550020661870, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1698550020662450, "dur":752638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698550021415093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021415376, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698550021416430, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021416447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021416452, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021418079, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698550021418099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021418106, "dur":18673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698550021436796, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021436815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021436822, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021438314, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021438336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021438345, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021442817, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021442835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021442839, "dur":6150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449004, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449114, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449889, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021449910, "dur":169641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021619570, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021619596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698550021619602, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698550021621060, "dur":1894474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020585325, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020585620, "dur":1688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020587318, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698550020587424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020588572, "dur":50806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698550020639392, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698550020639419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020639433, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698550020644524, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698550020644551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550020644555, "dur":39803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698550020684374, "dur":2794263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698550023478641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698550023478646, "dur":36842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698550023515503, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1698550023515506, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020585353, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020585626, "dur":1684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020587315, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698550020587417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020588501, "dur":164468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698550020752998, "dur":95798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020848800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020848807, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020849541, "dur":43169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020892715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020892724, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020894197, "dur":84741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020978943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020978951, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020980377, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020980491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020980498, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020981137, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020981281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550020981289, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550020981967, "dur":46266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021028236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021028273, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021028825, "dur":123526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021152355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021152360, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021152978, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021153134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021153138, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021153639, "dur":132218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021285861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021285867, "dur":43801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021329688, "dur":276025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021605718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021605724, "dur":13644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698550021619388, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698550021619410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698550021619416, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698550021620875, "dur":1894659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020585384, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020585632, "dur":1672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020587317, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698550020587385, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020592270, "dur":51373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698550020643656, "dur":58672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698550020702332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020702357, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698550020703060, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020703241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020703425, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020704024, "dur":180572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020884602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020884611, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020885387, "dur":91677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020977070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020977079, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020977838, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020977956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550020977962, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550020978842, "dur":124976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021103822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021103828, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021104436, "dur":50853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021155293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021155298, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021155892, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021156002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021156006, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021156842, "dur":45135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021201979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021201984, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021202498, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021203452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021203457, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021204458, "dur":4098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021208561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021208569, "dur":122635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021331220, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021331342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021331349, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021332334, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021332485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021332491, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021333082, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021333176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021333181, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021333865, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021334377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021334382, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021335078, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021335503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021335508, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021336250, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021336745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021336752, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021337510, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021337592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021337596, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021338057, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021338121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021338124, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021338947, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021339146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021339156, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021340010, "dur":94873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021434890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021435550, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698550021437390, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021437413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021437419, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021438467, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021438489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021438494, "dur":4223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021442738, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698550021442757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021442764, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698550021447834, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021447857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021447863, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021449981, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021450004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021450009, "dur":168654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698550021618691, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698550021618719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021618731, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698550021620194, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698550021620232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698550021620238, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698550021623101, "dur":1892448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020585416, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020585638, "dur":1675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020587317, "dur":108911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698550020696231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020696238, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698550020696844, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1698550020696882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020697152, "dur":42982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1698550020740147, "dur":166442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020906595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020906606, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020907434, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020907543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020907547, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020908327, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020908609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020908617, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020909261, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020910074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020910079, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020910984, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020911279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020911284, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020911866, "dur":34667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020946537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550020946543, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550020947163, "dur":76739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021023905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021023911, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021025196, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021025339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021025345, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021027066, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021027170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021027181, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021027717, "dur":81974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021109695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021109701, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021110248, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021110350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021110354, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021110912, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021111824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021111829, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021112842, "dur":78397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021191243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021191250, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021192453, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021192707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021192714, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021193402, "dur":282681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021476090, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021476104, "dur":143398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698550021619522, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1698550021619567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698550021619573, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1698550021623012, "dur":1892528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020585445, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020585642, "dur":1661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020587317, "dur":122968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1698550020710289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020710456, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1698550020710985, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020711077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020711092, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020711615, "dur":178759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020890379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020890388, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020891227, "dur":76276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020967508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550020967517, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550020968254, "dur":50095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021018354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021018362, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021019196, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021019337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021019344, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021020134, "dur":89913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021110049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021110054, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021110684, "dur":89380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021200068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021200074, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021200620, "dur":1595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021202217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021202221, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021203761, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021203898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021203902, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021204443, "dur":274013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021478477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698550021478485, "dur":142407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698550021620908, "dur":1894632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020585478, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020585648, "dur":1667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020587315, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1698550020587428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020592221, "dur":159880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1698550020752114, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550020752214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020752219, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550020752849, "dur":137525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550020890379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550020890388, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550020891232, "dur":116777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021008015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021008024, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021008980, "dur":134678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021143662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021143669, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021144244, "dur":43439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021187686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021187691, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021188307, "dur":259204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021447518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021447532, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698550021449016, "dur":12282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1698550021461320, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021461341, "dur":157523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1698550021618887, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698550021618910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021618916, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698550021620259, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1698550021620278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698550021620283, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1698550021621703, "dur":1893847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020585507, "dur":146, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020585653, "dur":1656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020587316, "dur":108786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698550020696106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020696113, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698550020696770, "dur":25450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject.exe" }}
+,{ "pid":12345, "tid":11, "ts":1698550020722224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020722229, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject.exe" }}
+,{ "pid":12345, "tid":11, "ts":1698550020723001, "dur":143124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550020866129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550020866137, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550020867128, "dur":137254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021004415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021004423, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021005512, "dur":84828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021090349, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021090366, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021091338, "dur":41909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021133251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021133257, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021134241, "dur":46294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021180537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021180541, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021182158, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021182535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021182541, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021183437, "dur":367214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021550654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021550661, "dur":70180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698550021620856, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1698550021620947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698550021620973, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1698550021621826, "dur":1893707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020585536, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020585658, "dur":1654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020587316, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698550020587411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020588515, "dur":45911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698550020634440, "dur":165013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698550020799457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020799464, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698550020800066, "dur":134523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020934593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020934600, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020935218, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020935332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020935337, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020935891, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020936005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020936011, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020936632, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020936836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020936841, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020937436, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020937602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550020937607, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550020938140, "dur":64376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021002530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021002540, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021003450, "dur":116490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021119944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021119950, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021120605, "dur":59581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021180190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021180196, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021181922, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021182678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021182683, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021183869, "dur":173429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021357304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021357313, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021358765, "dur":584025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021942794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698550021942837, "dur":23788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Builds/KartingBuild5/KartingTimeProject_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698550021966640, "dur":1548898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698550023518751, "dur":1759, "ph":"X", "name": "ProfilerWriteOutput" }
+,
